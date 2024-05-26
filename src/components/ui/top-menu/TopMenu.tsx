@@ -18,6 +18,8 @@ export const TopMenu = () => {
     setLoaded(() => true)
   }, [])
 
+  if(!loaded) return null;
+
   return (
     <nav className="flex px-5 justify-between items-center w-full">
 

@@ -8,6 +8,7 @@ export default function LoginPage() {
       <h1 className={ `${ titleFont.className } text-4xl mb-5` }>Ingresar</h1>
 
       <LoginForm />
+      
     </div>
   );
 }
